@@ -5,7 +5,7 @@ import random
 import tkinter as tk
 from tkinter import ttk
 
-apps = ["money", "passwordgen", "hangman", "roulette", "to do", "chess" , "dic Game"]
+apps = ["money", "passwordgen", "hangman", "roulette", "to do", "chess" , "dic Game",]
 apps1 = input("Welche App möchtest du benutzen? money/password gen/hangman/roulette/to do/chess ").lower()
 
 if apps1 not in apps:
